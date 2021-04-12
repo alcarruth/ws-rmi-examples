@@ -1,0 +1,24 @@
+{
+  "name": "ws-rmi-example",
+  "version": "1.0.0",
+  "description": "RMI over websockets example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://goofi.armazilla.net/opt/git/ws-rmi-example"
+  },
+  "keywords": [
+    "ws-rmi",
+    "example",
+    "websocket",
+    "rmi"
+  ],
+  "author": "Al Carruth",
+  "license": "ISC",
+  "dependencies": {
+    "coffeescript": "^2.5.1"
+  }
+}
