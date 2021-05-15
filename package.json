@@ -1,14 +1,14 @@
 {
-  "name": "ws-rmi-example",
+  "name": "ws-rmi-examples",
   "version": "1.0.0",
-  "description": "RMI over websockets example.",
+  "description": "RMI over websockets examples.",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://goofi.armazilla.net/opt/git/ws-rmi-example"
+    "url": "https://goofi.armazilla.net/opt/git/ws-rmi-examples"
   },
   "keywords": [
     "ws-rmi",
