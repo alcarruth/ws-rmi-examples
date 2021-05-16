@@ -19,6 +19,7 @@
   "author": "Al Carruth",
   "license": "ISC",
   "dependencies": {
-    "coffeescript": "^2.5.1"
+    "coffeescript": "^2.5.1",
+    "ws-rmi": "file:../ws-rmi"
   }
 }
