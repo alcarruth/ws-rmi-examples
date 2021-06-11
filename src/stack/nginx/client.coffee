@@ -5,8 +5,8 @@
 #
 
 { Stack_RMI_Client } = require('../stack_rmi_client')
-{ remote_options } = require('./settings')
+{ options } = require('../settings')
 
-client = new Stack_RMI_Client(remote_options)
+client = new Stack_RMI_Client(options.remote)
 
 window.client = client

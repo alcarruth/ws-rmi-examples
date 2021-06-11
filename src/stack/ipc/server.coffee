@@ -5,8 +5,8 @@
 #
 
 { Stack_RMI_Server } = require('../stack_rmi_server')
-{ ipc_options }= require('./settings')
+{ options } = require('../settings')
 
-server = new Stack_RMI_Server(ipc_options)
+server = new Stack_RMI_Server(options.ipc)
 
 module.exports = server

@@ -5,8 +5,8 @@
 #
 
 { Stack_RMI_Server } = require('../stack_rmi_server')
-{ local_options } = require('./settings').
+{ options } = require('../settings').
 
-server = new Stack_RMI_Server(local_options)
+server = new Stack_RMI_Server(options.localhost)
 
 module.exports = server

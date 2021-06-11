@@ -5,8 +5,8 @@
 #
 
 { Stack_RMI_Client } = require('../stack_rmi_client')
-{ local_options } = require('./settings').
+{ options } = require('../settings').
 
-client = new Stack_RMI_Client(local_options)
+client = new Stack_RMI_Client(options.localhost)
 
 module.exports = client
