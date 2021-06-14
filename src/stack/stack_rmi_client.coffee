@@ -4,7 +4,11 @@
 #  package: ws-rmi-examples
 #
 
-# { Stack_RMI_Stub } = require('./stack_rmi_object')
+{
+  Stack_RMI_Object
+  Stack_RMI_Stub
+  #
+} = require('./stack_rmi_object')
 
 {
   WS_RMI_Client
@@ -15,7 +19,8 @@
 
 class Stack_RMI_Client extends WS_RMI_Client
   constructor: (options = {}) ->
-    objects = []
+    objects = [new Stack_RMI_Object(options)]
+    # objects = []
     super(objects, options, WS_RMI_Connection)
 
 

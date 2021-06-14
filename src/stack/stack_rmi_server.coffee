@@ -6,8 +6,11 @@
 
 fs = require('fs')
 
-{ Stack } = require('./stack')
-{ Stack_RMI_Object } = require('./stack_rmi_object')
+{
+  Stack_RMI_Object
+  Stack_RMI_Stub
+  #
+} = require('./stack_rmi_object')
 
 {
   WS_RMI_Connection
@@ -18,7 +21,8 @@ fs = require('fs')
 
 class Stack_RMI_Server extends WS_RMI_Server
   constructor: (options = {}) ->
-    objects = [new Stack_RMI_Object(options)]
+    #objects = [new Stack_RMI_Object(options)]
+    objects = []
     super(objects, options, WS_RMI_Connection)
 
 exports.Stack_RMI_Server = Stack_RMI_Server
