@@ -28,7 +28,7 @@ function browserify {
 }
 
 function build_browser {
-  echo "building ws-rmi/examples/browser"
+  echo "building ws-rmi-examples/browser"
   mkdir -p ./browser/js ./browser/css
   cp ./src/html/examples.html ./browser/index.html
   cp ./src/css/* ./browser/css

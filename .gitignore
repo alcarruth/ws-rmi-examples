@@ -1,3 +1,6 @@
+/browser/
+/stack/
+
 node_modules
 *.pyc
 *~
@@ -40,5 +43,3 @@ node_modules
 ehthumbs.db
 Thumbs.db
 
-/browser/
-/stack/
