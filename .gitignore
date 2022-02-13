@@ -1,8 +1,7 @@
 *~
 /doc/
 /lib/
-/common/
-/client/
-/server/
+/browser/
+/stack/
 /node_modules/
 

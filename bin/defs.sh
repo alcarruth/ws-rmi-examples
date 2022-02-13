@@ -4,14 +4,7 @@
 root_dir="."
 
 function clean {
-  rm -rf ./lib ./stack ./browser
-}
-
-function build_lib {
-  echo "building ws-rmi-examples/lib"
-  mkdir -p ./lib
-  coffee -c -o ./lib ./src/lib/*.coffee 2> /dev/null
-  coffee -c -o . ./src/index.coffee 2> /dev/null
+  rm -rf ./stack ./browser
 }
 
 function build_stack_example {
@@ -36,7 +29,6 @@ function build_browser {
 }
 
 function build {
-  build_lib
   build_stack_example
   build_browser
 }
