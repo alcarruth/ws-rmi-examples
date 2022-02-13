@@ -4,7 +4,9 @@
   "description": "RMI over websockets examples.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "install": "./bin/build.sh",
+    "clean": ".bin/clean.sh",
+    "build": "./bin/build.sh"
   },
   "repository": {
     "type": "git",
