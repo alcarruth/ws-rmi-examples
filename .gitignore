@@ -1,8 +1,8 @@
 /browser/
 /stack/
+/lib/
 
 node_modules
-*.pyc
 *~
 
 # Compiled source #
