@@ -56,7 +56,7 @@ options = {
     port: 8087
     path: ''
     host: 'localhost'
-    log_level: 1
+    log_level: 2
     log: log
 
   # remote client options
