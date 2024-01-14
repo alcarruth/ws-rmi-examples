@@ -16,7 +16,8 @@ fs = require('fs')
   WS_RMI_Connection
   WS_RMI_Server
   #
-} = require('ws-rmi/server')
+} = require('ws-rmi/src/server')
+#} = require('ws-rmi/server')
 
 
 class Stack_RMI_Server extends WS_RMI_Server
