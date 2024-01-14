@@ -15,7 +15,7 @@
   WS_RMI_Connection
   #
 } = require('ws-rmi/src/client')
-#} = require('ws-rmi/server')
+#} = require('ws-rmi/client')
 
 
 class Stack_RMI_Client extends WS_RMI_Client

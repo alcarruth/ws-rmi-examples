@@ -16,7 +16,7 @@ fs = require('fs')
   WS_RMI_Connection
   WS_RMI_Server
   #
-} = require('ws-rmi/src/client')
+} = require('ws-rmi/src/server')
 #} = require('ws-rmi/server')
 
 
