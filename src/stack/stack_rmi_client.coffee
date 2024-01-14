@@ -1,6 +1,6 @@
 # -*- coffee -*-
 #
-#  file: src/stack/stack_rmi_client.coffee
+#  file: /src/stack/stack_rmi_client.coffee
 #  package: ws-rmi-examples
 #
 
@@ -19,8 +19,8 @@
 
 class Stack_RMI_Client extends WS_RMI_Client
   constructor: (options = {}) ->
-    objects = [new Stack_RMI_Object(options)]
-    # objects = []
+    #objects = [new Stack_RMI_Object(options)]
+    objects = []
     super(objects, options, WS_RMI_Connection)
 
 
