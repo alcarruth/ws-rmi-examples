@@ -1,7 +1,8 @@
 #!/usr/bin/env coffee
 #
-#  settings.coffee
-#
+#  file:  /src/stack/nginx/options.coffee
+#  package: ws-rmi-examples
+# 
 
 util = require('util')
 
@@ -28,7 +29,7 @@ options = {
     port: null
     host: null
     uid: undefined # defaults to user starting server
-    gid: undefined
+    gid: 33        # group 'www-data'
     mode: 0o660
     path: '/tmp/stack-rmi'
     log_level: 2
@@ -66,7 +67,7 @@ options = {
     protocol: 'wss'
     port: 443
     host: 'alcarruth.net'
-    path: '/wss'
+    path: '/wss/ws-rmi-example'
     log_level: 1
     log: console.log
 
@@ -83,6 +84,4 @@ options = {
 }
 
 
-module.exports = {
-  options
-}
+module.exports = options
