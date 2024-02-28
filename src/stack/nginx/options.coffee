@@ -5,6 +5,7 @@
 # 
 
 util = require('util')
+process = require('process')
 
 log_options =
   colors: true
@@ -28,8 +29,10 @@ options = {
     protocol: 'ws+unix'
     port: null
     host: null
-    uid: undefined # defaults to user starting server
-    gid: 33        # group 'www-data'
+    #uid: undefined # defaults to user starting server
+    #gid: 33        # group 'www-data'
+    user: process.env.USER
+    group: 'www-data'
     mode: 0o660
     path: '/tmp/stack-rmi'
     log_level: 2
@@ -42,8 +45,8 @@ options = {
     protocol: 'ws+unix'
     port: null
     host: null
-    uid: undefined # defaults to user starting server
-    gid: 33        # group 'www-data'
+    uid: process.env.USER
+    gid: 'www-data'
     mode: 0o660
     path: '/tmp/stack-rmi'
     log_level: 2
